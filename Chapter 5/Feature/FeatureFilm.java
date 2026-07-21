@@ -40,4 +40,20 @@ public class FeatureFilm {
         this.setStar(star);
         this.setTitle(title);
     }
+
+    public void update(Actor a, Actor b, String title){
+
+    }
+
+    public void update(String topic, String title){
+
+    }
+
+    public boolean update(String title, Actor a){
+        return true;
+    }
+
+    public void update(Actor a, Actor b){
+
+    }
 }
