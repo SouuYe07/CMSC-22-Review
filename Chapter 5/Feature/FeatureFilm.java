@@ -2,6 +2,7 @@ public class FeatureFilm {
     Actor star;
     String title;
     String theater;
+    String category;
 
     public void setStar(Actor star){
         this.star = star;
@@ -25,6 +26,14 @@ public class FeatureFilm {
 
     public String getTheater(){
         return this.theater;
+    }
+
+    public void setCategory(String category){
+        this.category = category;
+    }
+
+    public String getCategory(){
+        return this.category;
     }
 
     public void update(Actor star, String title){
